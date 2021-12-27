@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout07</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        body {background-color: #fffde7;}
+        .wrap {width: 1200px; margin: 0 auto;}
+        header {width: 100%; height: 100px; background-color: #ffe082;}
+        article {width: 100%; height: 100px; background-color: antiquewhite;}
+        aside {float: left; width: 40%; height: 300px; background-color: #ffd54f;}
+        .article1 {float: left; width: 60%; height: 150px; background-color: #927f40;}
+        .article2 {float: left; width: 60%; height: 150px; background-color: #cab46c;}
+        .article3 {float: left; width: 33.333333%; height: 300px; background-color: #d6aa18;}
+        .article4 {float: left; width: 33.333333%; height: 300px; background-color: #a58314;}
+        .article5 {float: left; width: 33.333333%; height: 300px; background-color: #6d560a;}
+        .article6 {overflow: hidden; float: left; width: 100%; height: 200px; background-color: #a1915b;}
+        .article6 > div {width: 23%; padding-top: 20px; margin: 1%; height: 150px; float: left; background-color: #ff9800; border-radius: 10px;}
+        footer {clear: both; width: 100%; height: 150px; background-color: burlywood;}
+
+        /* 0 ~ 1200 */
+        @media (max-width: 1220px) {
+            .wrap {width: 100%;}
+            .article3 {display: none;}
+            .article4 {width: 50%;}
+            .article5 {width: 50%;}
+            .article6 > div {width: 31.3333%;}
+            .article6 > div:nth-child(4) {display: none;}
+
+        }
+        /* 0 ~ 768 */
+        @media (max-width: 768px) {
+            .wrap {width: 100%;}
+            .article3 {display: none;}
+            .article4 {width: 100%;}
+            .article5 {width: 100%;}
+            .article6 {}
+            .article6 > div {}
+        }
+        /* 0 ~ 480 */
+        @media (max-width: 520px) {
+            .wrap {width: 100%;}
+            .article6 {height: 180px; padding-left: 30px;}
+            .article6 > div {width: 80%; height: 30px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header></header>
+        <article></article>
+        <aside></aside>
+        <section class="article1"></section>
+        <section class="article2"></section>
+        <section class="article3"></section>
+        <section class="article4"></section>
+        <section class="article5"></section>
+        <section class="article6">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <footer></footer>
+    </div>
+</body>
+</html>
