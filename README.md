@@ -8,3 +8,7 @@
 ! 11일차. 푸터 추가, 스크립트 올리고/ 내리기 기능 추가 </br>
 ![image](https://user-images.githubusercontent.com/62534722/147668416-cbba3d0d-a116-47a8-b2a2-97f5b083ee9a.png)
 
+
+! 13일차 마지막 최종 </br>
+! side1, 2, 3 에 반응형 기능 추가 hover시 동작 추가
+![image](https://user-images.githubusercontent.com/62534722/147817253-04edd78d-ce74-49d0-a232-03bb58b91fe6.png)
