@@ -10,5 +10,5 @@
 
 
 ! 13일차 마지막 최종 </br>
-! side1, 2, 3 에 반응형 기능 추가 hover시 동작 추가
+! side1, 2, 3 에 반응형 기능 추가 hover시 동작 추가 </
 ![image](https://user-images.githubusercontent.com/62534722/147817253-04edd78d-ce74-49d0-a232-03bb58b91fe6.png)
